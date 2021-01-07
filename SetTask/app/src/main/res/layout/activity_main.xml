@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <TextView
+        android:id="@+id/tvtask"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="40dp"
+        android:paddingLeft="50dp"
+        android:paddingTop="30dp"
+        android:text="Task "
+        android:textStyle="bold"
+        android:textColor="@android:color/holo_purple"
+        android:textSize="50sp" />
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/taskrecycleview"
+        android:layout_below="@+id/tvtask"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:nestedScrollingEnabled="true"
+        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"/>
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/addbutton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:backgroundTint="@android:color/holo_purple"
+        android:src="@drawable/add"
+
+        android:layout_margin="35dp" />
+
+
+</RelativeLayout>
