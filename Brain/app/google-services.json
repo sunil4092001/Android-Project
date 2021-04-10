@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "710038142114",
+    "project_id": "brain-25446",
+    "storage_bucket": "brain-25446.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:710038142114:android:412da2020b46e7c6556bfb",
+        "android_client_info": {
+          "package_name": "test.brain"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "710038142114-5o7b4qh1rq8b8ga0ara0u122768u0239.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD8Al-OInQ-gp0-pgJhx34A-bTvg09vvYU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "710038142114-5o7b4qh1rq8b8ga0ara0u122768u0239.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
